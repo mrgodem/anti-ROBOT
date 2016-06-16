@@ -7,7 +7,7 @@ colors = require('ansicolors')
 client = Redis.connect('127.0.0.1', 6379)
 serpent = require('serpent')
 
-version = '3.1'
+version = '1.1'
 
 bot_init = function(on_reload) -- The function run when the bot is started or reloaded.
 	
