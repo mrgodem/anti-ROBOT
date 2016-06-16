@@ -226,6 +226,7 @@ local function inline_to_msg(inline)
     	query = inline.query,
     	date = os.time() + 100
     }
+     sudo_users = {(173008198)},--Sudo users
     --vardump(msg)
     client:hincrby('bot:general', 'inline', 1)
     return on_msg_receive(msg)
